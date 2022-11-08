@@ -1,0 +1,7 @@
+Loop is used for execute line of code mulitple time
+types:
+1.Exit controll
+    a.Do-While loop 
+2.Entery controll
+    a.While loop
+    b.For loop
