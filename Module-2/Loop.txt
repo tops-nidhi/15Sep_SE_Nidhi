@@ -1,7 +1,32 @@
-Loop is used for execute line of code mulitple time
-types:
+Defination:-
+    Loop is used for execute line of code mulitple time
+-----------------------------------------------------------
+types:-
 1.Exit controll
+(   
+    ->easily entered in the loop 
+    ->default your loop execute one time
+)
     a.Do-While loop 
-2.Entery controll
+        syntax:-do
+                {
+                    /* code */
+                } while (/* condition */);
+----------------------------------------------------------------    
+2.Entery controll:-
+    
     a.While loop
+        syntax:while (/* condition */)
+                {
+                    /* code */
+                }
+
     b.For loop
+        syntax:-for (size_t i = 0; i < count; i++)
+                {
+                    /* code */
+                }
+
+---------------------------------------------------------------
+->by default loop inifinite
+->default index 0 unless you not inisialze it
