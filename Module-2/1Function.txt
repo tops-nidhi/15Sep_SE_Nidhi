@@ -1,0 +1,22 @@
+->Function bunch of statement
+types:-
+1.Built-in-Function
+->Predefine Function
+    ex.printf,scanf,streev
+
+2.UDF-User Define Function
+->Which was created by  User
+    I.Without return type and without parameter | argument
+    II.Without return type and With parameter
+    III.With return type and Without parameter
+    Iv.With return type and With parameter
+-------------------------------------------------
+
+int main( void )
+
+int - return type
+main - Identifire(name) of the Function
+void - parameter
+----------------------------------------
+local variable -> Define inside the Function
+global variable -> Define in the global section(before main() and after the preproceser)

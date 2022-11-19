@@ -1,0 +1,5 @@
+Array is use to store multiple value.
+store only one data type
+types:
+1.one diamentional Array
+2.multi-diamentional Array

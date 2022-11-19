@@ -1,0 +1,21 @@
+1.Local variabal
+->Define inside the functioun
+ex.void data()
+{
+	int no;//local variabal
+	//INSIDE THE that function only
+}
+------------------------------------------------------
+2.global variabal
+->Define outside the all function
+ex.int no;//global variabal
+//Everywere
+void data(int no)
+{
+	//code
+}
+------------------------------------------------------
+3.Formal parameter
+->Define as parameter
+ex.void data(int no/*formal parameter*/)
+//inside the that function only

@@ -1,0 +1,8 @@
+take 2 value from user 
+and give them choice that what they want from the menu
+1.Add
+2.Sub
+3.Mul
+4.Div
+5.Mod
+t&c* with function
