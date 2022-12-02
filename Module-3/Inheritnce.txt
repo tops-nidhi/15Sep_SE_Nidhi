@@ -1,0 +1,8 @@
+reusablty of class 
+-------------------------------------------
+Types:-
+1.Sigle level
+2.Multiple inheritance
+3.Multilevel
+4.Hirachical
+5.Hybrid
