@@ -1,0 +1,26 @@
+DDL - Data Defination Laguage
+
+DESC `course`;(To view table structure)
+_________________________________________________________________________________________
+1.Create:
+->Database create:-
+	create database `database_name`;
+->Table create:-
+	create table `table_name`(column_name datatype (size),nthcolumn_name datatype (size));
+------------------------------------------------------
+2.Alter{Rename|Modify|change}:
+->To add Primary key
+	alter table table_name add primary key(`column_name`);
+->To add Foregin key
+	alter table table_name add foregin key(`column_name`) refrence refrencabletable_name(`refrencablecolumn_name`);
+----------------------------------------------------------
+3.drop:
+->to drop database:
+	drop database database_name;
+->to drop table:
+	drop table table_name;
+--------------------------------------------------------------
+4.Truncate;
+->to delete all data of the table:
+	truncate table table_name;
+

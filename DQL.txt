@@ -1,0 +1,23 @@
+DQL-Data Query Language
+---------------------------------
+SELECT * FROM `table_name`
+
+SELECT * FROM `table_name` ORDER BY `column_nmae`  ASC | DESC;
+
+SELECT `column_name`, `column_name` FROM `table_name`;
+
+SELECT `column_name`, `column_name` FROM `table_name` WHERE condition;
+
+SELECT COUNT(`column_name`)  as `Name`  FROM `table_name`;
+SELECT AVG(`column_name`)  as `Name`  FROM `table_name`;
+SELECT MIN(`column_name`)  as `Name`  FROM `table_name`;
+SELECT MAX(`column_name`)  as `Name`  FROM `table_name`;
+
+SELECT table1_name.column_name, table2_name.column_name...FROM table1_name LEFT JOIN table2ON 
+table1_name.column_name = table2.column_name;
+
+SELECT table1_name.column_name, table2_name.column_name...FROM table1_name INNER JOIN table2ON 
+table1_name.column_name = table2.column_name;
+
+SELECT table1_name.column_name, table2_name.column_name...FROM table1_name RIGHT JOIN table2ON 
+table1_name.column_name = table2.column_name;

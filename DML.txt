@@ -1,0 +1,14 @@
+DML - Data Manuplation Language
+_____________________________________________________________
+1.Insert:
+->To insert the data:
+	insert into `table_name` (1stcolumn_name, nthcolumn_name) values ('value-1','nthcolumn_value');
+
+->to add auto_increment:
+	alter table table_name change `oldcolumn_name` `newcolumn_name` datatype (size) auto_increment
+-------------------------------------------------------
+2.Update:
+---------------------------------------------------
+3.Delete:
+->to delete specific data:
+	delete frrom `table_name` where `column_name`= value;
